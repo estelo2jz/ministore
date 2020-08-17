@@ -1,0 +1,14 @@
+.home-outer-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  .home-inner-container {
+    .home-container {
+      display: flex;
+      justify-content: center;
+
+    }
+
+  }
+}

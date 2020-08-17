@@ -1,0 +1,69 @@
+// Category Styles
+.category-outer-container {
+
+  .category-grid-container {
+    width: 100%;
+
+    .category-container {
+      a {
+        color: black;
+      }
+      .main-nav-active {
+        color: rgb(18, 207, 49);
+
+        font-weight: 600;
+      }
+
+      .navbar h2 {
+        color: #fff;
+        display: inline-block;
+        background-color: #666;
+        text-decoration: none;
+      }
+
+      .category-links {
+        font-size: 1.5em;
+        text-decoration: none;
+        font-weight: 400;
+
+        p {
+          padding: 5px;
+          width: 200px;
+          border-left: 2px solid rgb(0, 98, 128);
+          border-right: 2px solid rgb(0, 98, 128);
+          border-bottom: 2px solid rgb(0, 98, 128);
+        }
+      }
+    }
+
+  }
+}
+
+
+// Card Styles
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  padding-top: 10px
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 15px;
+
+  button {
+    cursor: pointer;
+  }
+}
