@@ -60,6 +60,26 @@ export default class Furniture extends Component {
                   <PageTitle title="Furniture 8" price="726.00" />
                 </div>
               </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Furniture 9" price="726.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Furniture 10" price="726.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Furniture 11" price="726.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Furniture 12" price="726.00" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

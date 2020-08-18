@@ -60,6 +60,26 @@ export default class Tools extends Component {
                   <PageTitle title="Tool 8" price="43.00" />
                 </div>
               </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Tool 9" price="43.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Tool 10" price="43.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Tool 11" price="43.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Tool 12" price="43.00" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

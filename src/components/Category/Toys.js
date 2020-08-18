@@ -60,6 +60,26 @@ export default class Toys extends Component {
                   <PageTitle title="Toy 8" price="50.00" />
                 </div>
               </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Toy 9" price="50.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Toy 10" price="50.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Toy 11" price="50.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Toy 12" price="50.00" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

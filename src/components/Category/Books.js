@@ -60,22 +60,22 @@ export default class Books extends Component {
               </div>
               <div className="product-single-container">
                 <div className="product-back-container">
-                  <PageTitle title="Book 9" price="24.00" />
+                  <PageTitle title="Book 9" price="29.00" />
                 </div>
               </div>
               <div className="product-single-container">
                 <div className="product-back-container">
-                  <PageTitle title="Book 10" price="24.00" />
+                  <PageTitle title="Book 10" price="27.00" />
                 </div>
               </div>
               <div className="product-single-container">
                 <div className="product-back-container">
-                  <PageTitle title="Book 11" price="24.00" />
+                  <PageTitle title="Book 11" price="26.00" />
                 </div>
               </div>
               <div className="product-single-container">
                 <div className="product-back-container">
-                  <PageTitle title="Book 12" price="24.00" />
+                  <PageTitle title="Book 12" price="21.00" />
                 </div>
               </div>
             </div>

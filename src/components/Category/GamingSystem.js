@@ -60,6 +60,26 @@ export default class GamingSystem extends Component {
                   <PageTitle title="Gaming System 8" price="526.00" />
                 </div>
               </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Gaming System 9" price="526.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Gaming System 10" price="526.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Gaming System 11" price="526.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Gaming System 12" price="526.00" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

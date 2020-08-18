@@ -4,14 +4,33 @@
   .category-grid-container {
     width: 100%;
 
+    .category-title {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+      transition: 0.3s;
+      width: 100%;
+      padding-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+
+    }
+
     .category-container {
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      width: 100%;
+      padding-top: 10px;
+      color: black;
       a {
         color: black;
+        
       }
       .main-nav-active {
-        color: rgb(18, 207, 49);
-
-        font-weight: 600;
+        color: red;
       }
 
       .navbar h2 {
@@ -19,19 +38,21 @@
         display: inline-block;
         background-color: #666;
         text-decoration: none;
+        
       }
 
       .category-links {
         font-size: 1.5em;
         text-decoration: none;
-        font-weight: 400;
 
         p {
-          padding: 5px;
-          width: 200px;
-          border-left: 2px solid rgb(0, 98, 128);
-          border-right: 2px solid rgb(0, 98, 128);
-          border-bottom: 2px solid rgb(0, 98, 128);
+          padding: 10px;
+          margin: 8px;
+          background-color: #ffffff;
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+          border-left: 1px solid black;
+          border-right: 1px solid black;
+          
         }
       }
     }
@@ -66,4 +87,33 @@
   button {
     cursor: pointer;
   }
+}
+
+.myButton {
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 13px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #263666;
+  
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton:focus {
+  outline: none;
 }

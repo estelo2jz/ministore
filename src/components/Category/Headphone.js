@@ -60,6 +60,26 @@ export default class Headphone extends Component {
                   <PageTitle title="Headphone 8" price="126.00" />
                 </div>
               </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Headphone 9" price="126.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Headphone 10" price="126.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Headphone 11" price="126.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Headphone 12" price="126.00" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

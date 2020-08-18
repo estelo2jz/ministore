@@ -60,6 +60,26 @@ export default class Tablets extends Component {
                   <PageTitle title="Tablet 8" price="326.00" />
                 </div>
               </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Tablet 9" price="326.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Tablet 10" price="326.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Tablet 11" price="326.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Tablet 12" price="326.00" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

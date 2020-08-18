@@ -1,0 +1,22 @@
+.footer-outer-container {
+  .flex-container {
+    background-color: #d5d8da;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: center;
+
+    .left-footer {
+      display: grid;
+      justify-content: center;
+    }
+    .right-footer {
+      display: grid;
+      justify-content: center;
+    }
+  }
+
+  p {
+    width: 300px;
+  }
+}

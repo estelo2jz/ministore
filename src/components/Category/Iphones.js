@@ -60,6 +60,26 @@ export default class Iphones extends Component {
                   <PageTitle title="iPhone 8" price="1226.00" />
                 </div>
               </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="iPhone 9" price="1226.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="iPhone 10" price="1226.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="iPhone 11" price="1226.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="iPhone 12" price="1226.00" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

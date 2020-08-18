@@ -14,7 +14,7 @@ export default class CategoryContainer extends Component {
           </div>
           <div className="category-container">
             <NavLink activeClassName="main-nav-active" className="category-links" to="/books">
-              <p>Books</p>
+              <p activeClassName="main-nav-active">Books</p>
             </NavLink>
             <NavLink activeClassName="main-nav-active" className="category-links" to="/headphones">
               <p>Headphones</p>
@@ -69,7 +69,7 @@ export const PageTitle = (props) => {
           <p>$ {props.price}</p> 
         </div>
         <div>
-          <button>Add to cart</button>         
+          <button  className="myButton">Add to cart</button>         
         </div>
       </div>
     </div>

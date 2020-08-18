@@ -60,6 +60,26 @@ export default class Samsung extends Component {
                   <PageTitle title="Samsung 8" price="1326.00" />
                 </div>
               </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Samsung 9" price="1326.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Samsung 10" price="1326.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Samsung 11" price="1326.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Samsung 12" price="1326.00" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

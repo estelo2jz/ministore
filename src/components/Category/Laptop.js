@@ -60,6 +60,26 @@ export default class Laptop extends Component {
                   <PageTitle title="Laptop 8" price="1206.00" />
                 </div>
               </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Laptop 9" price="1206.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Laptop 10" price="1206.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Laptop 11" price="1206.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Laptop 12" price="1206.00" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

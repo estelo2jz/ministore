@@ -60,6 +60,26 @@ export default class PC extends Component {
                   <PageTitle title="PC 8" price="1406.00" />
                 </div>
               </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="PC 9" price="1406.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="PC 10" price="1406.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="PC 11" price="1406.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="PC 12" price="1406.00" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

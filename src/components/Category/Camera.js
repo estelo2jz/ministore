@@ -60,6 +60,26 @@ export default class Camera extends Component {
                   <PageTitle title="Camera 8" price="1226.00" />
                 </div>
               </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Camera 9" price="1234.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Camera 10" price="1232.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Camera 11" price="1206.00" />
+                </div>
+              </div>
+              <div className="Product-single-container">
+                <div className="product-back-container">
+                  <PageTitle title="Camera 12" price="1226.00" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
