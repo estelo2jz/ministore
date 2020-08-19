@@ -61,8 +61,12 @@ export const PageTitle = (props) => {
   return (
     <div class="card">
       <div class="container">
-        <img className="" src='http://via.placeholder.com/230x230' />
-        <h4>{props.title}</h4> 
+        <div  className="container-img">
+          <div className="img-container">
+            <img src={props.productImage} />
+          </div>
+        </div>
+        <h4 className="container-bio">{props.title}</h4> 
       </div>
       <div className="price-container">
         <div>
