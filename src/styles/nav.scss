@@ -4,23 +4,35 @@
   justify-content: space-evenly;
   align-content: center;
   align-items: center;
-  background-color: #d5d8da;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  background-color: #713045;
+  box-shadow: 0 0px 5px 0 rgba(0,0,0,0.5);
+  border-bottom: 2px solid red;
  
   .nav-nav-title {
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
+    color: white;
   }
-
+  
   .nav-nav-container {
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
+    
     p {
       padding: 10px;
+      color: white;
+      font-size: 1.5em;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);      
+      border-radius: 5px;
+    }
+
+    a {
+      text-decoration: none;
+      
     }
   }
 }

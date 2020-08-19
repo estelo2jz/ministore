@@ -9,7 +9,7 @@ export default class CategoryContainer extends Component {
         <div className="category-grid-container">
           <div className="category-title">
             <div>
-              <h2>Mini Store</h2>
+              <h2>CATEGORIES</h2>
             </div>
           </div>
           <div className="category-container">

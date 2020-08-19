@@ -8,7 +8,7 @@ export default class Nav extends Component {
       <div className="nav-container" >
         <div className="nav-nav-title">
           <div>
-            <h2>Mini Store</h2>
+            <h2>ONLINE SHOPPING</h2>
           </div>
         </div>
         <div className="nav-nav-container">
@@ -19,7 +19,7 @@ export default class Nav extends Component {
             <NavLink to="/"><p>Store</p></NavLink>
           </div>
           <div>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/about"><p>About</p></NavLink>
           </div>          
           <div>
             <a href="/#"><p>Services</p></a>
