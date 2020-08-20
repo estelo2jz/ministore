@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { addBasket } from '../../actions/addAction';
 
 import '../../styles/product.scss';
 
@@ -18,85 +20,313 @@ import Xb4 from '../../images/gaming/xb4.jpg';
 import Xb5 from '../../images/gaming/xb5.jpg';
 import Xb6 from '../../images/gaming/xb6.jpg';
 
-export default class GamingSystem extends Component {
-  render() {
-    return (
-      <div className="product-outer-container">
-        <div className="product-inner-container">
-          <div className="product-category-header">
-            <div>
-              <CategoryContainer />
-            </div>
+const GamingSystem = (props) => {
+  return (
+    <div className="product-outer-container">
+      <div className="product-inner-container">
+        <div className="product-category-header">
+          <div>
+            <CategoryContainer />
           </div>
-          <div className="product-container">
-            <div className="product-header">
-              <h2>Gaming System</h2>
+        </div>
+        <div className="product-container">
+          <div className="product-header">
+            <h2>Gaming System</h2>
+          </div>
+          <div className="product-grid-container">
+            <div className="Product-single-container">
+              <div className="product-back-container">
+                    <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Play1} alt="Play1" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">NexiGo 2020 Playstation 4 PS4 Console Holiday Bundle 1TB HDD + Included 3X Games (The Last of Us, God of War, Horizon Zero Dawn)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 527.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('RubProgramming')}>
+                          <button className="myButton">Add to Cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
             </div>
-            <div className="product-grid-container">
-              <div className="Product-single-container">
-                <div className="product-back-container">
-                  <PageTitle productImage={Play1} title="NexiGo 2020 Playstation 4 PS4 Console Holiday Bundle 1TB HDD + Included 3X Games (The Last of Us, God of War, Horizon Zero Dawn)" price="527.00" />
-                </div>
+            <div className="Product-single-container">
+              <div className="product-back-container">
+                    <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Play2} alt="Play2" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">PlayStation 4 Slim 1TB Console</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 545.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('RubProgramming')}>
+                          <button className="myButton">Add to Cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div className="Product-single-container">
-                <div className="product-back-container">
-                  <PageTitle productImage={Play2} title="PlayStation 4 Slim 1TB Console" price="545.00" />
-                </div>
+            </div>
+            <div className="Product-single-container">
+              <div className="product-back-container">
+                    <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Play3} alt="Play3" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">PlayStation 4 Console - 1TB Slim Edition</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 562.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('RubProgramming')}>
+                          <button className="myButton">Add to Cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div className="Product-single-container">
-                <div className="product-back-container">
-                  <PageTitle productImage={Play3} title="PlayStation 4 Console - 1TB Slim Edition" price="562.00" />
-                </div>
+            </div>
+            <div className="Product-single-container">
+              <div className="product-back-container">
+                    <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Play4} alt="Play4" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">PlayStation 4 Slim 1TB Console - Only On PlayStation Bundle</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 507.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('RubProgramming')}>
+                          <button className="myButton">Add to Cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div className="Product-single-container">
-                <div className="product-back-container">
-                  <PageTitle productImage={Play4} title="PlayStation 4 Slim 1TB Console - Only On PlayStation Bundle" price="507.00" />
-                </div>
+            </div>
+            <div className="Product-single-container">
+              <div className="product-back-container">
+                    <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Play5} alt="Play5" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">PlayStation 4 Pro 1TB Console</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 534.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('RubProgramming')}>
+                          <button className="myButton">Add to Cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div className="Product-single-container">
-                <div className="product-back-container">
-                  <PageTitle productImage={Play5} title="PlayStation 4 Pro 1TB Console" price="534.00" />
-                </div>
+            </div>
+            <div className="Product-single-container">
+              <div className="product-back-container">
+                    <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Play6} alt="Play6" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">PlayStation 4 Slim 1TB Console - Fortnite Bundle</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 532.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('RubProgramming')}>
+                          <button className="myButton">Add to Cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div className="Product-single-container">
-                <div className="product-back-container">
-                  <PageTitle productImage={Play6} title="PlayStation 4 Slim 1TB Console - Fortnite Bundle" price="532.00" />
-                </div>
+            </div>
+            <div className="Product-single-container">
+              <div className="product-back-container">
+                    <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Xb1} alt="Xb1" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Xbox One S 1TB All-Digital Edition Console (Disc-Free Gaming) - Discontinued</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 506.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('RubProgramming')}>
+                          <button className="myButton">Add to Cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div className="Product-single-container">
-                <div className="product-back-container">
-                  <PageTitle productImage={Xb1} title="Xbox One S 1TB All-Digital Edition Console (Disc-Free Gaming) - Discontinued" price="506.00" />
-                </div>
+            </div>
+            <div className="Product-single-container">
+              <div className="product-back-container">
+                    <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Xb2} alt="Xb2" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Newest Flagship Microsoft Xbox One S 1TB HDD Bundle with Two (2X) Wireless Controllers, 1-Month Game Pass Trial, 14-Day Xbox</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 526.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('RubProgramming')}>
+                          <button className="myButton">Add to Cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div className="Product-single-container">
-                <div className="product-back-container">
-                  <PageTitle productImage={Xb2} title="Newest Flagship Microsoft Xbox One S 1TB HDD Bundle with Two (2X) Wireless Controllers, 1-Month Game Pass Trial, 14-Day Xbox " price="526.00" />
-                </div>
+            </div>
+            <div className="Product-single-container">
+              <div className="product-back-container">
+                    <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Xb3} alt="3" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Microsoft Xbox One X 1TB, 4K Ultra HD Gaming Console, Black (Renewed)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 480.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('RubProgramming')}>
+                          <button className="myButton">Add to Cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div className="Product-single-container">
-                <div className="product-back-container">
-                  <PageTitle productImage={Xb3} title="Microsoft Xbox One X 1TB, 4K Ultra HD Gaming Console, Black (Renewed)" price="526.00" />
-                </div>
+            </div>
+            <div className="Product-single-container">
+              <div className="product-back-container">
+                    <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Xb4} alt="Xb4" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Microsoft Xbox One X 1Tb Console With Wireless Controller: Xbox One X Enhanced, Hdr, Native 4K, Ultra Hd (Discontinued)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 499.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('RubProgramming')}>
+                          <button className="myButton">Add to Cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div className="Product-single-container">
-                <div className="product-back-container">
-                  <PageTitle productImage={Xb4} title="Microsoft Xbox One X 1Tb Console With Wireless Controller: Xbox One X Enhanced, Hdr, Native 4K, Ultra Hd (Discontinued)" price="526.00" />
-                </div>
+            </div>
+            <div className="Product-single-container">
+              <div className="product-back-container">
+                    <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Xb5} alt="Xb5" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Xbox One S 1TB Console - Star Wars Jedi: Fallen Order Bundle</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 500.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('RubProgramming')}>
+                          <button className="myButton">Add to Cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div className="Product-single-container">
-                <div className="product-back-container">
-                  <PageTitle productImage={Xb5} title="Xbox One S 1TB Console - Star Wars Jedi: Fallen Order Bundle" price="526.00" />
-                </div>
-              </div>
-              <div className="Product-single-container">
-                <div className="product-back-container">
-                  <PageTitle productImage={Xb6} title="Xbox One 500 GB Console - Black [Discontinued]" price="526.00" />
-                </div>
+            </div>
+            <div className="Product-single-container">
+              <div className="product-back-container">
+                    <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Xb6} alt="Xb6" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Xbox One 500 GB Console - Black [Discontinued]</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 540.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('RubProgramming')}>
+                          <button className="myButton">Add to Cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    )
-  }
+    </div>
+  )
 }
+
+export default connect(null, { addBasket })(GamingSystem);
