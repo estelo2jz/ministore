@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { addBasket } from '../../actions/addAction';
 import { NavLink } from 'react-router-dom';
 import '../../styles/category.scss';
 
-export default class CategoryContainer extends Component {
+class CategoryContainer extends Component {
   render() {
     return (
       <div className="category-outer-container">
@@ -56,6 +58,7 @@ export default class CategoryContainer extends Component {
   }
 }
 
+export default connect(null, { addBasket })(CategoryContainer);
 
 export const PageTitle = (props) => {
   return (
@@ -73,7 +76,9 @@ export const PageTitle = (props) => {
           <p>$ {props.price}</p> 
         </div>
         <div>
-          <button  className="myButton">Add to cart</button>         
+          <p onClick={() => addBasket()}>
+            <button className="myButton">Add to cart</button>         
+          </p>
         </div>
       </div>
     </div>

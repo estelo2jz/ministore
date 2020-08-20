@@ -1,20 +1,38 @@
 .footer-outer-container {
   border-top: 2px solid red;
-
+  
   .flex-container {
-    background-color: #d5d8da;
+    height: 30vh;
+    background-color: #713045;
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
     align-content: center;
+    padding: 10px;
 
     .left-footer {
       display: grid;
       justify-content: center;
+
+
+      .left-link-container {
+        a {
+          text-decoration: none;
+          color: black;
+          font-size: 1.2em;
+          font-weight: 600;
+        }
+      }
     }
     .right-footer {
       display: grid;
       justify-content: center;
+      text-align: left;
+
+      a {
+        color: black;
+        font-size: 2em;
+      }
     }
   }
 

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { addBasket } from '../../actions/addAction';
 
 import '../../styles/product.scss';
 
@@ -18,8 +20,7 @@ import Head10 from '../../images/headphone/head10.jpg';
 import Head11 from '../../images/headphone/head11.jpg';
 import Head12 from '../../images/headphone/head12.jpg';
 
-export default class Headphone extends Component {
-  render() {
+const Headphone = (props) => {
     return (
       <div className="product-outer-container">
         <div className="product-inner-container">
@@ -35,62 +36,290 @@ export default class Headphone extends Component {
             <div className="product-grid-container">
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle  productImage={Head1} title="Apple AirPods with Wired Charging Case" price="127.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Head1} alt="Head1" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Apple AirPods with Wired Charging Case</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 127.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('AppleAirPods')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle  productImage={Head2} title="TaoTronics Hybrid Active Noise Cancelling Headphones with Mic, 3 ANC Modes 2020 Upgraded Bluetooth Headphones" price="145.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Head2} alt="Head2" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">TaoTronics Hybrid Active Noise Cancelling Headphones with Mic, 3 ANC Modes 2020 Upgraded Bluetooth Headphones</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 145.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('TaoTronicsHybrid')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle  productImage={Head3} title="Bose SoundLink Around Ear Wireless Headphones II - Black" price="162.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Head3} alt="Head3" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Bose SoundLink Around Ear Wireless Headphones II - Black</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 162.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('BoseSoundLink')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle  productImage={Head4} title="Powerbeats Pro Wireless Earphones - Apple H1 Headphone Chip, Class 1 Bluetooth, 9 Hours Of Listening Time" price="107.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Head4} alt="Head4" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Powerbeats Pro Wireless Earphones - Apple H1 Headphone Chip, Class 1 Bluetooth, 9 Hours Of Listening Time</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 107.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('PowerbeatsPro')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle  productImage={Head5} title="Bose QuietComfort 35 II Wireless Bluetooth Headphones, Noise-Cancelling, with Alexa voice control - Black" price="114.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Head5} alt="Head5" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Bose QuietComfort 35 II Wireless Bluetooth Headphones, Noise-Cancelling, with Alexa voice control - Black</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 114.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('BoseQuietComfort35')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle  productImage={Head6} title="Bose SoundSport, Wireless Earbuds, (Sweatproof Bluetooth Headphones for Running and Sports)" price="112.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Head6} alt="Head6" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Bose SoundSport, Wireless Earbuds, (Sweatproof Bluetooth Headphones for Running and Sports)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 112.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('BoseSoundSport')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle  productImage={Head7} title="Denon AH-C720 In-Ear Wired Headphones | Designed For Professionals, Travelers & Music Enthusiasts on the Go" price="106.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Head7} alt="Head7" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Denon AH-C720 In-Ear Wired Headphones | Designed For Professionals, Travelers & Music Enthusiasts on the Go</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 106.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('DenonAHC720')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle  productImage={Head8} title="Sony MDR7506 Professional Large Diaphragm Headphone" price="126.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Head8} alt="Head8" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Sony MDR7506 Professional Large Diaphragm Headphone</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 126.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('SonyMDR7506')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle  productImage={Head9} title="Philips SHP9600 Wired Over-Ear Open-Back Headphones, 50mm Drivers, Hi-Fi, Comfortable + Durable" price="126.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Head9} alt="Head9" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Philips SHP9600 Wired Over-Ear Open-Back Headphones, 50mm Drivers, Hi-Fi, Comfortable + Durable</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 126.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('PhilipsSHP9600')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle  productImage={Head10} title="Audio-Technica ATH-M50x Professional Studio Monitor Headphones, Black, Professional Grade, Critically Acclaimed" price="126.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Head10} alt="Head10" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Audio-Technica ATH-M50x Professional Studio Monitor Headphones, Black, Professional Grade, Critically Acclaimed</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 126.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('AudioTechnicaATHM50')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle  productImage={Head11} title="JBL LIVE 500BT - Around-Ear Wireless Headphone - Black" price="126.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Head11} alt="Head11" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">JBL LIVE 500BT - Around-Ear Wireless Headphone - Black</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 126.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('JBLLIVE500BT')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle  productImage={Head12} title="Skullcandy Crusher Wireless Over-Ear Headphone - Deep Red" price="126.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={Head12} alt="Head12" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Skullcandy Crusher Wireless Over-Ear Headphone - Deep Red</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 126.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('SkullcandyCrusher')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -98,5 +327,6 @@ export default class Headphone extends Component {
         </div>
       </div>
     )
-  }
 }
+
+export default connect(null, { addBasket })(Headphone);

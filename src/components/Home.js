@@ -12,7 +12,9 @@ export default class Home extends Component {
             <div className="home-header">
               <div className="home-grid-container">
                 <div className="home-title-header">
-                  <h2>We Sell Everything!</h2>
+                  <div className="home-title-test">
+                    <h2>We Sell Everything!</h2>
+                  </div>
                 </div>
                 <div className="home-top-grid-container">
                   <div className="home-section-container">

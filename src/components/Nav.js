@@ -1,9 +1,15 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
+import { connect } from 'react-redux';
+import { getNumbers } from '../actions/getAction';
 import '../styles/nav.scss';
 import { NavLink } from 'react-router-dom';
 
-export default class Nav extends Component {
-  render() {
+function Nav(props) {
+  console.log(props)
+
+  useEffect(() => {
+    getNumbers();
+  }, []);
     return (
       <div className="nav-container" >
         <div className="nav-nav-title">
@@ -17,18 +23,21 @@ export default class Nav extends Component {
           </div>
           <div>
             <NavLink to="/"><p>Store</p></NavLink>
-          </div>
+          </div>   
           <div>
-            <NavLink to="/about"><p>About</p></NavLink>
-          </div>          
-          <div>
-            <a href="/#"><p>Services</p></a>
-          </div>          
-          <div>
-            <a href="/#"><p>Contact</p></a>
-          </div>
+            <NavLink to="/cart">
+              <p className="nav-cart">
+                Cart <span>{props.basketProps.basketNumbers}</span>
+              </p>
+            </NavLink>
+          </div>   
         </div>
       </div>
     )
   }
-}
+
+  const mapStateToProps = state => ({
+    basketProps: state.basketState
+  })
+  
+  export default connect(mapStateToProps, { getNumbers })(Nav);

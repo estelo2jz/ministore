@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { addBasket } from '../../actions/addAction';
 
 import '../../styles/product.scss';
 
@@ -18,8 +20,7 @@ import I10 from '../../images/iphone/i10.jpg';
 import I11 from '../../images/iphone/i11.jpg';
 import I12 from '../../images/iphone/i12.jpg';
 
-export default class Iphones extends Component {
-  render() {
+const Iphones = (props) => {
     return (
       <div className="product-outer-container">
         <div className="product-inner-container">
@@ -35,62 +36,290 @@ export default class Iphones extends Component {
             <div className="product-grid-container">
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle productImage={I1} title="Apple iPhone 7, 32GB, Black - Fully Unlocked (Renewed)" price="1227.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={I1} alt="I1" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Apple iPhone 7, 32GB, Black - Fully Unlocked (Renewed)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 1227.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle productImage={I2} title="Apple iPhone X, 64GB, Space Gray - Fully Unlocked (Renewed)" price="1245.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={I2} alt="I2" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Apple iPhone X, 64GB, Space Gray - Fully Unlocked (Renewed)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 1245.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle productImage={I3} title="Apple iPhone 11, 128GB, Black - Fully Unlocked (Renewed)" price="1262.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={I3} alt="I3" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Apple iPhone 11, 128GB, Black - Fully Unlocked (Renewed)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 1262.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle productImage={I4} title="Apple iPhone 11 Pro, 64GB, Midnight Green - Fully Unlocked (Renewed)" price="1207.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={I4} alt="I4" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Apple iPhone 11 Pro, 64GB, Midnight Green - Fully Unlocked (Renewed)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 1207.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle productImage={I5} title="Apple iPhone Xs Max, 256GB, Silver - Fully Unlocked (Renewed)" price="1214.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={I5} alt="I5" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Apple iPhone Xs Max, 256GB, Silver - Fully Unlocked (Renewed)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 1214.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle productImage={I6} title="Apple iPhone XS, 256GB , Space Gray - Fully Unlocked (Renewed)" price="1222.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={I6} alt="I6" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Apple iPhone XS, 256GB , Space Gray - Fully Unlocked (Renewed)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 1222.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle productImage={I7} title="Apple iPhone 7 Matte Black 32GB Verizon Unlocked (Renewed)" price="1206.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={I7} alt="I7" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Apple iPhone 7 Matte Black 32GB Verizon Unlocked (Renewed)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 1206.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle productImage={I8} title="Apple iPhone SE, 64GB, White - Fully Unlocked (Renewed)" price="1226.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={I8} alt="I8" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Apple iPhone SE, 64GB, White - Fully Unlocked (Renewed)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 1226.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle productImage={I9} title="Apple iPhone 7, 128GB, Red - for Sprint/Verizon (Renewed)" price="1226.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={I9} alt="I9" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Apple iPhone 7, 128GB, Red - for Sprint/Verizon (Renewed)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 1226.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle productImage={I10} title="Apple iPhone X, 64GB, Space Gray - Fully Unlocked (Renewed)" price="1226.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={I10} alt="I10" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Apple iPhone X, 64GB, Space Gray - Fully Unlocked (Renewed)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 1226.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle productImage={I11} title="Google Pixel XL - 32GB Factory Unlocked - Very Silver (Renewed)" price="1226.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={I11} alt="I11" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Google Pixel XL - 32GB Factory Unlocked - Very Silver (Renewed)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 1226.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="Product-single-container">
                 <div className="product-back-container">
-                  <PageTitle productImage={I12} title="Apple iPhone 8 256GB Unlocked GSM Phone - Silver (Renewed)" price="1226.00" />
+                  <div class="card">
+                    <div class="container">
+                      <div  className="container-img">
+                        <div className="img-container">
+                          <img src={I12} alt="I2" />
+                        </div>
+                      </div>
+                      <h4 className="container-bio">Apple iPhone 8 256GB Unlocked GSM Phone - Silver (Renewed)</h4> 
+                    </div>
+                    <div className="price-container">
+                      <div>
+                        <p>$ 1226.00</p> 
+                      </div>
+                      <div>
+                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                          <button className="myButton">Add to cart</button>         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -99,4 +328,5 @@ export default class Iphones extends Component {
       </div>
     )
   }
-}
+
+  export default connect(null, { addBasket })(Iphones);

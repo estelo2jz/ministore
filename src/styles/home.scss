@@ -52,7 +52,14 @@
           border-bottom: 2px solid black;
           color: white;
 
-          margin: 0;
+          .home-title-test {
+            
+          }
+
+          h2 {
+            padding: 0;
+            margin: 0;
+          }
         }
       }
     }
@@ -63,10 +70,13 @@
       align-content: center;
       align-items: center;
       width: 100vw;
+      height: 50vh;
 
 
       .home-section-container {
       border-bottom: 2px solid red;
+      background-color: rgb(244, 245, 244);
+      border-radius: 10px;
 
         width: 400px;
         height: 400px;
@@ -84,6 +94,7 @@
     align-content: center;
     align-items: center;
     padding: 20px;
+    background-color: rgb(244, 245, 244);
 
     .home-grid-container {
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
