@@ -5,7 +5,6 @@ import { addBasket } from '../../actions/addAction';
 import '../../styles/product.scss';
 
 import CategoryContainer from './CategoryContainer';
-import { PageTitle } from './CategoryContainer';
 
 import I1 from '../../images/iphone/i1.jpg';
 import I2 from '../../images/iphone/i2.jpg';
@@ -50,7 +49,7 @@ const Iphones = (props) => {
                         <p>$ 1227.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                        <p onClick={() => props.addBasket('iphone1')}>
                           <button className="myButton">Add to cart</button>         
                         </p>
                       </div>
@@ -74,7 +73,7 @@ const Iphones = (props) => {
                         <p>$ 1245.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                        <p onClick={() => props.addBasket('iphone2')}>
                           <button className="myButton">Add to cart</button>         
                         </p>
                       </div>
@@ -98,7 +97,7 @@ const Iphones = (props) => {
                         <p>$ 1262.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                        <p onClick={() => props.addBasket('iphone3')}>
                           <button className="myButton">Add to cart</button>         
                         </p>
                       </div>
@@ -122,7 +121,7 @@ const Iphones = (props) => {
                         <p>$ 1207.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                        <p onClick={() => props.addBasket('iphone4')}>
                           <button className="myButton">Add to cart</button>         
                         </p>
                       </div>
@@ -146,7 +145,7 @@ const Iphones = (props) => {
                         <p>$ 1214.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                        <p onClick={() => props.addBasket('iphone5')}>
                           <button className="myButton">Add to cart</button>         
                         </p>
                       </div>
@@ -170,7 +169,7 @@ const Iphones = (props) => {
                         <p>$ 1222.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                        <p onClick={() => props.addBasket('iphone6')}>
                           <button className="myButton">Add to cart</button>         
                         </p>
                       </div>
@@ -194,7 +193,7 @@ const Iphones = (props) => {
                         <p>$ 1206.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                        <p onClick={() => props.addBasket('iphone7')}>
                           <button className="myButton">Add to cart</button>         
                         </p>
                       </div>
@@ -218,7 +217,7 @@ const Iphones = (props) => {
                         <p>$ 1226.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                        <p onClick={() => props.addBasket('iphone8')}>
                           <button className="myButton">Add to cart</button>         
                         </p>
                       </div>
@@ -239,10 +238,10 @@ const Iphones = (props) => {
                     </div>
                     <div className="price-container">
                       <div>
-                        <p>$ 1226.00</p> 
+                        <p>$ 1145.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                        <p onClick={() => props.addBasket('iphone9')}>
                           <button className="myButton">Add to cart</button>         
                         </p>
                       </div>
@@ -263,10 +262,10 @@ const Iphones = (props) => {
                     </div>
                     <div className="price-container">
                       <div>
-                        <p>$ 1226.00</p> 
+                        <p>$ 1451.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                        <p onClick={() => props.addBasket('iphone10')}>
                           <button className="myButton">Add to cart</button>         
                         </p>
                       </div>
@@ -287,10 +286,10 @@ const Iphones = (props) => {
                     </div>
                     <div className="price-container">
                       <div>
-                        <p>$ 1226.00</p> 
+                        <p>$ 1356.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                        <p onClick={() => props.addBasket('iphone11')}>
                           <button className="myButton">Add to cart</button>         
                         </p>
                       </div>
@@ -311,10 +310,10 @@ const Iphones = (props) => {
                     </div>
                     <div className="price-container">
                       <div>
-                        <p>$ 1226.00</p> 
+                        <p>$ 1266.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('WebDesignPlayground')}>
+                        <p onClick={() => props.addBasket('iphone12')}>
                           <button className="myButton">Add to cart</button>         
                         </p>
                       </div>

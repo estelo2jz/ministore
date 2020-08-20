@@ -302,7 +302,303 @@ const initialState = {
     },
 
     // iPHONES State
-    teere: {
+    iphone1: {
+      name: "Apple iPhone 7, 32GB, Black - Fully Unlocked (Renewed)",
+      price: 1227.00,
+      numbers: 0,
+      inCart: false
+    },
+    iphone2: {
+      name: "Apple iPhone X, 64GB, Space Gray - Fully Unlocked (Renewed)",
+      price: 1245.00,
+      numbers: 0,
+      inCart: false
+    },
+    iphone3: {
+      name: "Apple iPhone 11, 128GB, Black - Fully Unlocked (Renewed)",
+      price: 1262.00,
+      numbers: 0,
+      inCart: false
+    },
+    iphone4: {
+      name: "Apple iPhone 11 Pro, 64GB, Midnight Green - Fully Unlocked (Renewed)",
+      price: 1207.00,
+      numbers: 0,
+      inCart: false
+    },
+    iphone5: {
+      name: "Apple iPhone Xs Max, 256GB, Silver - Fully Unlocked (Renewed)",
+      price: 1214.00,
+      numbers: 0,
+      inCart: false
+    },
+    iphone6: {
+      name: "Apple iPhone XS, 256GB , Space Gray - Fully Unlocked (Renewed)",
+      price: 1222.00,
+      numbers: 0,
+      inCart: false
+    },
+    iphone7: {
+      name: "Apple iPhone 7 Matte Black 32GB Verizon Unlocked (Renewed)",
+      price: 1206.00,
+      numbers: 0,
+      inCart: false
+    },
+    iphone8: {
+      name: "Apple iPhone SE, 64GB, White - Fully Unlocked (Renewed)",
+      price: 1226.00,
+      numbers: 0,
+      inCart: false
+    },
+    iphone9: {
+      name: "Apple iPhone 7, 128GB, Red - for Sprint/Verizon (Renewed)",
+      price: 1145.00,
+      numbers: 0,
+      inCart: false
+    },
+    iphone10: {
+      name: "Apple iPhone X, 64GB, Space Gray - Fully Unlocked (Renewed)",
+      price: 1451.00,
+      numbers: 0,
+      inCart: false
+    },
+    iphone11: {
+      name: "Google Pixel XL - 32GB Factory Unlocked - Very Silver (Renewed)",
+      price: 1356.00,
+      numbers: 0,
+      inCart: false
+    },
+    iphone12: {
+      name: "Apple iPhone 8 256GB Unlocked GSM Phone - Silver (Renewed)",
+      price: 1266.00,
+      numbers: 0,
+      inCart: false
+    },
+
+    // SAMSUNG State
+    samsung1: {
+      name: "Samsung Galaxy A10e 32GB A102U GSM Unlocked Phone - Black",
+      price: 1325.00,
+      numbers: 0,
+      inCart: false
+    },
+    samsung2: {
+      name: "Samsung Galaxy A20S w/Triple Cameras (32GB, 3GB RAM) 6.5",
+      price: 1345.00,
+      numbers: 0,
+      inCart: false
+    },
+    samsung3: {
+      name: "Samsung Galaxy S9 G960U 64GB Unlocked GSM 4G LTE Phone w/ 12MP Camera - Midnight Black",
+      price: 1362.00,
+      numbers: 0,
+      inCart: false
+    },
+    samsung4: {
+      name: "Samsung Galaxy S9, 64GB, Lilac Purple - Fully Unlocked (Renewed)",
+      price: 1254.00,
+      numbers: 0,
+      inCart: false
+    },
+    samsung5: {
+      name: "Samsung Galaxy A31-128GB / 4GB - A315G/DSL Unlocked Dual Sim Phone w/Quad Camera 48MP+8MP+5MP+5MP",
+      price: 1334.00,
+      numbers: 0,
+      inCart: false
+    },
+    samsung6: {
+      name: "Samsung Galaxy A10 32GB A105M 6.2 HD+ Infinity-V 4G LTE Factory Unlocked GSM Smartphone - Black",
+      price: 1312.00,
+      numbers: 0,
+      inCart: false
+    },
+    samsung7: {
+      name: "Samsung Galaxy A10s A107M - 32GB, 6.2 HD+ Infinity-V Display, 13MP+2MP Dual Rear +8MP Front Cameras, GSM Unlocked",
+      price: 1306.00,
+      numbers: 0,
+      inCart: false
+    },
+    samsung8: {
+      name: "Samsung Galaxy A51 (128GB, 4GB) 6.5, 48MP Quad Camera, Dual SIM GSM Unlocked A515F/DS- Global 4G LTE International Model",
+      price: 1326.00,
+      numbers: 0,
+      inCart: false
+    },
+    samsung9: {
+      name: "Samsung Galaxy S10 Factory Unlocked Android Cell Phone | US Version | 128GB of Storage | Fingerprint ID and Facial Recognition",
+      price: 1235.00,
+      numbers: 0,
+      inCart: false
+    },
+    samsung10: {
+      name: "Samsung Galaxy A01 16GB/2GB RAM (SM-A015M/DS) Dual SIM, 5.7” Display, GSM Unlocked, International Version - Blue",
+      price: 1512.00,
+      numbers: 0,
+      inCart: false
+    },
+    samsung11: {
+      name: "Samsung Galaxy A11 Unlocked | 6.4 Screen | 32GB of Storage | Long Lasting Battery | 2020 Model | Black",
+      price: 1332.00,
+      numbers: 0,
+      inCart: false
+    },
+    samsung12: {
+      name: "Samsung Galaxy S8 G950U 64GB - Verizon + GSM Unlocked Android Smartphone, Midnight Black (Renewed)",
+      price: 1451.00,
+      numbers: 0,
+      inCart: false
+    },
+
+    // TABLET State
+    tablet1: {
+      name: "New Apple iPad Pro (12.9-inch, Wi-Fi + Cellular, 128GB) - Silver (4th Generation)",
+      price: 327.00,
+      numbers: 0,
+      inCart: false
+    },
+    tablet2: {
+      name: "Apple iPad (10.2-inch, Wi-Fi, 32GB) - Space Gray (Latest Model)",
+      price: 345.00,
+      numbers: 0,
+      inCart: false
+    },
+    tablet3: {
+      name: "New Apple iPad (10.2-Inch, Wi-Fi, 32GB) - Silver (Latest Model) with AppleCare+ Bundle",
+      price: 362.00,
+      numbers: 0,
+      inCart: false
+    },
+    tablet4: {
+      name: "New Apple iPad (10.2-Inch, Wi-Fi, 32GB) - Space Gray (Latest Model) with AppleCare+ Bundle",
+      price: 307.00,
+      numbers: 0,
+      inCart: false
+    },
+    tablet5: {
+      name: "New Apple iPad (10.2-Inch, Wi-Fi, 32GB) - Gold (Latest Model) with AppleCare+ Bundle",
+      price: 334.00,
+      numbers: 0,
+      inCart: false
+    },
+    tablet6: {
+      name: "New Apple iPad (10.2-Inch, Wi-Fi, 128GB) - Silver (Latest Model) with AppleCare+ Bundle",
+      price: 332.00,
+      numbers: 0,
+      inCart: false
+    },
+    tablet7: {
+      name: "Apple iPad Air (10.5-inch, Wi-Fi, 64GB) - Space Gray",
+      price: 306.00,
+      numbers: 0,
+      inCart: false
+    },
+    tablet8: {
+      name: "Apple iPad Mini (Wi-Fi, 64GB) - Space Gray (Latest Model)",
+      price: 326.00,
+      numbers: 0,
+      inCart: false
+    },
+    tablet9: {
+      name: "New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Space Gray (4th Generation)",
+      price: 456.00,
+      numbers: 0,
+      inCart: false
+    },
+    tablet10: {
+      name: "Apple iPad 9.7in with WiFi, 32GB-Silver (2017 Newest Model) (Renewed)",
+      price: 423.00,
+      numbers: 0,
+      inCart: false
+    },
+    tablet11: {
+      name: "New Apple iPad Pro (11-inch, Wi-Fi, 256GB) - Space Gray (2nd Generation)",
+      price: 396.00,
+      numbers: 0,
+      inCart: false
+    },
+    tablet12: {
+      name: "Apple iPad (10.2-Inch, Wi-Fi, 32GB) - Space Gray (Latest Model) (Renewed)",
+      price: 375.00,
+      numbers: 0,
+      inCart: false
+    },
+
+    // CAMERA State
+    camera1: {
+      name: "Canon EOS 4000D DSLR Camera w/Canon EF-S 18-55mm F/3.5-5.6 III Zoom Lens + Case + 32GB SD Card (15pc Bundle)",
+      price: 1227.00,
+      numbers: 0,
+      inCart: false
+    },
+    camera2: {
+      name: "Canon EOS Rebel T7 DSLR Camera Bundle with Canon EF-S 18-55mm f/3.5-5.6 is II Lens + 2pc SanDisk 32GB Memory Cards + Accessory Kit",
+      price: 1245.00,
+      numbers: 0,
+      inCart: false
+    },
+    camera3: {
+      name: "Canon EOS Rebel T7 DSLR Camera with EF-S 18-55mm and EF 75-300mm Lens Complete Bundle with Bag, Battery, Charger, Filter Kit",
+      price: 1262.00,
+      numbers: 0,
+      inCart: false
+    },
+    camera4: {
+      name: "Canon EOS Rebel T7 DSLR Camera + Canon EF-S 18-55mm + Canon 75-300mm & 500mm Telephoto Lens + Wide Angle & Telephoto Lens + Macro Filter Kit",
+      price: 1207.00,
+      numbers: 0,
+      inCart: false
+    },
+    camera5: {
+      name: "Canon EOS Rebel T6 DSLR Camera with 18-55mm is II Lens Bundle + Canon EF 75-300mm f/4-5.6 III Lens and 500mm Preset Lens",
+      price: 1234.00,
+      numbers: 0,
+      inCart: false
+    },
+    camera6: {
+      name: "Canon EOS 4000D w/EF-S 18-55mm f/3.5-5.6 III Lens with Professional Accessory Bundle - Includes: Spare LPE10 Battery",
+      price: 1232.00,
+      numbers: 0,
+      inCart: false
+    },
+    camera7: {
+      name: "Canon EOS Rebel T6 DSLR Camera Bundle with Canon EF-S 18-55mm f/3.5-5.6 is II Lens + 2pc SanDisk 32GB Memory Cards + Premium Accessory Kit",
+      price: 1206.00,
+      numbers: 0,
+      inCart: false
+    },
+    camera8: {
+      name: "Canon EOS Rebel T7 DSLR Camera with EF-S 18-55mm and EF 75-300mm Lens Bundle with Bag, 64GB SD Card, Corel PC Photo",
+      price: 1226.00,
+      numbers: 0,
+      inCart: false
+    },
+    camera9: {
+      name: "Canon EOS Rebel T7 Digital SLR Camera with 18-55mm EF-S f/3.5-5.6 is II Lens + 58mm Wide Angle Lens + 2X Telephoto Lens",
+      price: 1234.00,
+      numbers: 0,
+      inCart: false
+    },
+    camera10: {
+      name: "Canon EOS Rebel T7 DSLR Camera with EF-S 18-55mm and EF 75-300mm Lens Starter Bundle with Bag, Wrist Strap, Extra Battery",
+      price: 1232.00,
+      numbers: 0,
+      inCart: false
+    },
+    camera11: {
+      name: "Canon EOS Rebel T6 Digital SLR Camera with Canon EF-S 18-55mm Image Stabilization II Lens, Sandisk 32GB SDHC Memory Cards",
+      price: 1206.00,
+      numbers: 0,
+      inCart: false
+    },
+    camera12: {
+      name: "Canon EOS Rebel T7 DSLR Camera with 18-55mm is II Lens Bundle + Canon EF 75-300mm f/4-5.6 III Lens and 500mm Preset Lens + 32GB Memory",
+      price: 1226.00,
+      numbers: 0,
+      inCart: false
+    },
+
+
+    camera: {
       name: "",
       price: 125.00,
       numbers: 0,
@@ -362,156 +658,7 @@ const initialState = {
       numbers: 0,
       inCart: false
     },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
-    teere: {
-      name: "",
-      price: 125.00,
-      numbers: 0,
-      inCart: false
-    },
+    
 
 
     
