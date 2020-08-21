@@ -3,9 +3,14 @@
 @import './category.scss';
 @import './product.scss';
 @import './footer.scss';
+@import './cart.scss';
 
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.app-container {
+  height: 100%;
 }

@@ -50,7 +50,7 @@ const GamingSystem = (props) => {
                         <p>$ 527.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('RubProgramming')}>
+                        <p onClick={() => props.addBasket('gamingsystem1')}>
                           <button className="myButton">Add to Cart</button>         
                         </p>
                       </div>
@@ -74,7 +74,7 @@ const GamingSystem = (props) => {
                         <p>$ 545.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('RubProgramming')}>
+                        <p onClick={() => props.addBasket('gamingsystem2')}>
                           <button className="myButton">Add to Cart</button>         
                         </p>
                       </div>
@@ -98,7 +98,7 @@ const GamingSystem = (props) => {
                         <p>$ 562.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('RubProgramming')}>
+                        <p onClick={() => props.addBasket('gamingsystem3')}>
                           <button className="myButton">Add to Cart</button>         
                         </p>
                       </div>
@@ -122,7 +122,7 @@ const GamingSystem = (props) => {
                         <p>$ 507.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('RubProgramming')}>
+                        <p onClick={() => props.addBasket('gamingsystem4')}>
                           <button className="myButton">Add to Cart</button>         
                         </p>
                       </div>
@@ -146,7 +146,7 @@ const GamingSystem = (props) => {
                         <p>$ 534.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('RubProgramming')}>
+                        <p onClick={() => props.addBasket('gamingsystem5')}>
                           <button className="myButton">Add to Cart</button>         
                         </p>
                       </div>
@@ -170,7 +170,7 @@ const GamingSystem = (props) => {
                         <p>$ 532.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('RubProgramming')}>
+                        <p onClick={() => props.addBasket('gamingsystem6')}>
                           <button className="myButton">Add to Cart</button>         
                         </p>
                       </div>
@@ -194,7 +194,7 @@ const GamingSystem = (props) => {
                         <p>$ 506.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('RubProgramming')}>
+                        <p onClick={() => props.addBasket('gamingsystem7')}>
                           <button className="myButton">Add to Cart</button>         
                         </p>
                       </div>
@@ -218,7 +218,7 @@ const GamingSystem = (props) => {
                         <p>$ 526.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('RubProgramming')}>
+                        <p onClick={() => props.addBasket('gamingsystem8')}>
                           <button className="myButton">Add to Cart</button>         
                         </p>
                       </div>
@@ -242,7 +242,7 @@ const GamingSystem = (props) => {
                         <p>$ 480.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('RubProgramming')}>
+                        <p onClick={() => props.addBasket('gamingsystem9')}>
                           <button className="myButton">Add to Cart</button>         
                         </p>
                       </div>
@@ -266,7 +266,7 @@ const GamingSystem = (props) => {
                         <p>$ 499.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('RubProgramming')}>
+                        <p onClick={() => props.addBasket('gamingsystem10')}>
                           <button className="myButton">Add to Cart</button>         
                         </p>
                       </div>
@@ -290,7 +290,7 @@ const GamingSystem = (props) => {
                         <p>$ 500.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('RubProgramming')}>
+                        <p onClick={() => props.addBasket('gamingsystem11')}>
                           <button className="myButton">Add to Cart</button>         
                         </p>
                       </div>
@@ -314,7 +314,7 @@ const GamingSystem = (props) => {
                         <p>$ 540.00</p> 
                       </div>
                       <div>
-                        <p onClick={() => props.addBasket('RubProgramming')}>
+                        <p onClick={() => props.addBasket('gamingsystem12')}>
                           <button className="myButton">Add to Cart</button>         
                         </p>
                       </div>

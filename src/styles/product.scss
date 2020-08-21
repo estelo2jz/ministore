@@ -1,6 +1,8 @@
 .product-outer-container {
   display: flex;
   justify-content: center;
+  width: 100%;
+  height: 100%;
   .product-inner-container {
     display: flex;
     justify-content: space-around;

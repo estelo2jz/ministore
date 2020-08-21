@@ -29,7 +29,7 @@ import './App.css';
 function App() {
   return (
       <Provider store={store}>
-        <div className="">
+        <div className="app-container">
           <Router>
             <div>
               <Nav />

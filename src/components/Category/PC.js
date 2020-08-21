@@ -215,7 +215,7 @@ const PC = (props) => {
                   </div>
                   <div className="price-container">
                     <div>
-                      <p>$ 1406.000</p> 
+                      <p>$ 1406.00</p> 
                     </div>
                     <div>
                       <p onClick={() => props.addBasket('gamingpc8')}>
