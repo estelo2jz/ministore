@@ -554,9 +554,14 @@ function Cart({basketProps}) {
     );
   });
 
+  const divStyle= {
+    overflow: "scroll",
+    height: "100%",
+  }
+
   return (
     <div className="cart-outer-product-containers">
-      <div className="cart-inner-product-containers">
+      <div  style={divStyle} className="cart-inner-product-containers">
         <div className="cart-product-header">
           <div className="cart-product-title">
             <div className="cart-product-title-container">
